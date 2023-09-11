@@ -168,7 +168,7 @@ const Home = () => {
       <button onClick={moveCarToPerson}>Move Car to Person</button>
       <button onClick={moveBikeToPerson}>Move Bike to Person</button>
       <button onClick={setPersonDesiredLocation}>
-        Set Person's Random Location
+        Set Persons Random Location
       </button>
       <Map
         carPosition={carPosition}
