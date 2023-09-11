@@ -165,9 +165,16 @@ const Home = () => {
   return (
     <div>
       <h1>Car Movement Demo</h1>
-      <button onClick={moveCarToPerson}>Move Car to Person</button>
-      <button onClick={moveBikeToPerson}>Move Bike to Person</button>
-      <button onClick={setPersonDesiredLocation}>
+      <button className="bg-white p-2 rounded-xl" onClick={moveCarToPerson}>
+        Move Car to Person
+      </button>
+      <button className="bg-white p-2 rounded-xl" onClick={moveBikeToPerson}>
+        Move Bike to Person
+      </button>
+      <button
+        className="bg-white p-2 rounded-xl"
+        onClick={setPersonDesiredLocation}
+      >
         Set Persons Random Location
       </button>
       <Map
