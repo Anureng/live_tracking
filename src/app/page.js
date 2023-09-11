@@ -5,7 +5,7 @@ import firebase from "firebase/app";
 import "firebase/database";
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
-import RetrieveData from "@/components/RetrieveData";
+// import RetrieveData from "@/components/RetrieveData";
 const Home = () => {
   const initialCarPosition = { lat: 40.7128, lng: -74.006 }; // New York City
   const initialBikePosition = { lat: 39.7128, lng: -76.006 }; // New York City
