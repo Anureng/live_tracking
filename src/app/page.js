@@ -175,7 +175,7 @@ const Home = () => {
         className="bg-white p-2 rounded-xl"
         onClick={setPersonDesiredLocation}
       >
-        Set Persons Random Location
+        Set Person Random Location
       </button>
       <Map
         carPosition={carPosition}
